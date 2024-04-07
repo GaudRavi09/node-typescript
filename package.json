@@ -1,0 +1,29 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "start:dev": "npx ts-node src/index.ts"
+  },
+  "keywords": [
+    "NodeJs",
+    "typescript",
+    "NodeJs with typescript",
+    "Mysql",
+    "MongoDB",
+    "ExpressJs"
+  ],
+  "author": "Gaud Rvi",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
+  }
+}
